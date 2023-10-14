@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Cloud Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0074c9;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Journey Cloud Products</h1>
+    </header>
+
+    <div class="container">
+        <h2>Featured Products</h2>
+        <table>
+            <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td><img src="producto 1.jpeg" alt="Product 1"></td>
+                <td>SET DE UTENCILIOS PARA COMER 100% DE BAMBU</td>
+                <td>Cuchara: Creada con esmero y pasión, esta cuchara de bambú proviene del hermoso estado de Puebla.
+
+Tenedor: Otra obra maestra artesanal, este tenedor también se ha forjado con bambú proveniente de Puebla, aportando autenticidad a tu experiencia culinaria.
+
+Cuchara (otra): Una segunda cuchara, igual de impresionante que la primera, muestra la destreza de los artesanos mexicanos y la riqueza de los recursos naturales de la región.
+
+Popote: Completa tu colección con un popote de bambú, un accesorio eco-friendly que refleja la artesanía y sostenibilidad de la región poblana.
+
+Estas piezas no solo destacan por su calidad y origen, sino que también representan el compromiso con la conservación del medio ambiente. ¡Agrega un toque auténtico y ecológico a tu vida cotidiana!.</td>
+                <td>$250.00</td>
+                <td><button>Buy Now</button></td>
+            </tr>
+            <tr>
+                <td><img src="producto 2.jpeg" alt="Product 2"></td>
+                <td>CEPILLO DENTAL 100% DE BAMBU</td>
+                <td>Cepillo dental: Complementando la colección, el cepillo dental de bambú es una adición única que resalta la belleza y versatilidad de este material. Fabricado por hábiles manos artesanas mexicanas y con el bambú procedente del estado de Puebla, este cepillo no solo promueve la sostenibilidad, sino que también refleja el compromiso con la salud dental y el cuidado del planeta. Cuida tus dientes y el medio ambiente al mismo tiempo con este elegante cepillo de bambú.</td>
+                <td>$50.00</td>
+                <td><button>Buy Now</button></td>
+            </tr>
+            <!-- Add 8 more product rows here with images -->
+        </table>
+    </div>
+
+    <script>
+        // JavaScript para los botones de compra
+        const buyButtons = document.querySelectorAll("button");
+
+        buyButtons.forEach(button => {
+            button.addEventListener("click", function() {
+                alert("Thank you for your purchase!");
+            });
+        });
+    </script>
+</body>
+</html>
+
